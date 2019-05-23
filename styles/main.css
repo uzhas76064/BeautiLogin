@@ -32,6 +32,12 @@ form {
     font-family: 'Catamaran', sans-serif;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+    color: white;
+}
+
+.user-sign-up button, .user-action button {
+    cursor: pointer;
+    color: white;
 }
 /*Major layout*/
 .container {
@@ -66,7 +72,11 @@ form {
 .user-info input {
     margin-bottom: 15px;
     max-width: 322px;
+    background: #F7F7F7;
     font-family: 'Nunito Sans', sans-serif;
+    padding: 7px 5px;
+    border:none;
+    border-radius: 3px;
 
 }
 
@@ -76,7 +86,6 @@ form {
 
 .user-action button {
     background: #00D99F;
-    color: white;
     padding: 8px;
     border: none;
     border-radius: 3px;
@@ -94,4 +103,5 @@ form {
     border: solid white 2px;
     border-radius: 3px;
     background-color: inherit;
+    padding: 5px;
 }
