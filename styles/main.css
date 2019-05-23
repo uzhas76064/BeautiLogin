@@ -1,0 +1,57 @@
+/*Fonts*/
+@font-face {
+    font-family: 'NoyhSlimR';
+    src: url('/fonts/NoyhSlimR.eot'); /* IE9 Compat Modes */
+    src: url('/fonts/NoyhSlimR.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('/fonts/NoyhSlimR.woff2') format('woff2'), /* Modern Browsers */
+        url('/fonts/NoyhSlimR.woff') format('woff'), /* Modern Browsers */
+        url('/fonts/NoyhSlimR.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/fonts/NoyhSlimR.svg') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Global settings*/
+.user-sign-up, .user-action {
+    display: flex;
+}
+
+form {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*Major layout*/
+.container {
+    max-width: 420px;
+    margin: 0 auto;
+    background: red;
+}
+
+.container h2 {
+    font-family: 'NoyhSlimR', Arial, Helvetica, sans-serif;
+    font-size: 2.7em;
+    font-weight: 500;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.user-info label {
+    font-family: 'NoyhSlimR', Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.user-info input {
+    margin-bottom: 15px;
+    width: 322px;
+}
+
+.user-action {
+
+}
