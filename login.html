@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="login.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:600|Heebo|Nunito+Sans" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
@@ -11,16 +12,14 @@
 </head>
 <body>
     <div class="container">
-        <form action="" method="get">
+        <form action="#" class="login-form">
             <h2>Login</h2>
-            <div class="user-info">
+            <div class="user-info login-form">
                 <label for="email">Email</label>
-                <input type="email" name="" id="email" placeholder="e.g. alexsmith@gmail.com">
-                <label for="">Password</label>
-                <input type="password" name="" id="psw" placeholder="e.g. password123">
-            </div>
-            <div class="user-action">
-                <button type="submit">Login</button>
+                <input type="email" name="emailField" id="email" placeholder="e.g. alexsmith@gmail.com">
+                <label for="psw">Password</label>
+                <input type="password" name="pswField" id="psw" placeholder="e.g. password123">
+                <button class="login">Login</button>
             </div>
             <div class="user-sign-up">
                 <h3>Not got an account?</h3>
@@ -28,5 +27,6 @@
             </div>
         </form>
     </div>
+    <script src="login.js"></script>
 </body>
 </html>
