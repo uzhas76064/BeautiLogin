@@ -1,12 +1,12 @@
 /*Fonts*/
 @font-face {
     font-family: 'NoyhSlimR';
-    src: url('/fonts/NoyhSlimR.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/NoyhSlimR.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('/fonts/NoyhSlimR.woff2') format('woff2'), /* Modern Browsers */
-        url('/fonts/NoyhSlimR.woff') format('woff'), /* Modern Browsers */
-        url('/fonts/NoyhSlimR.ttf') format('truetype'), /* Safari, Android, iOS */
-        url('/fonts/NoyhSlimR.svg') format('svg'); /* Legacy iOS */
+    src: url('../fonts/NoyhSlimR.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/NoyhSlimR.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/NoyhSlimR.woff2') format('woff2'), /* Modern Browsers */
+        url('../fonts/NoyhSlimR.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/NoyhSlimR.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/NoyhSlimR.svg') format('svg'); /* Legacy iOS */
     font-weight: normal;
     font-style: normal;
 }
@@ -90,7 +90,16 @@ form {
     border: none;
     border-radius: 3px;
     min-width: 70px;
-    font-family: 'Heebo', sans-serif;}
+    font-family: 'Heebo', sans-serif;
+    /*transition-property: background;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;*/
+    transition: background 300ms linear;
+}
+
+.user-action button:hover {
+    background: #30C187;
+}
 
 .user-sign-up h3{
     margin-right: auto;
