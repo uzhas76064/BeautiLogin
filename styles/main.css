@@ -107,7 +107,11 @@ form {
     background: #30C187;
 }
 
-.user-sign-up h3{
+.login-form button:disabled {
+    background: #344850;
+}
+
+.user-sign-up h3 {
     margin-right: auto;
 }
 
