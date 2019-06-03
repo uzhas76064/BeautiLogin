@@ -15,10 +15,4 @@ window.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('password', inputs[1].value);
         });
     }
-
-    let submitButton = form.querySelector('button');
-
-    submitButton.addEventListener('click', () => {
-        window.open('http://google.com');
-    });
 });

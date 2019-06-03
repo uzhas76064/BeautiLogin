@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="login.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../static/login.ico" type="image/x-icon">
     <base href="/">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:600|Heebo|Nunito+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="../static/styles/normalize.css">
+    <link rel="stylesheet" href="../static/styles/main.css">
     <title>Login</title>
 </head>
 <body>
     <div class="container">
-        <form action="#" class="login-form">
+        <form method="POST" action="/success.html" class="login-form">
             <h2>Login</h2>
             <div class="user-info login-form">
                 <label for="email">Email</label>
                 <input type="email" name="emailField" id="email" placeholder="e.g. alexsmith@gmail.com">
                 <label for="psw">Password</label>
                 <input type="password" name="pswField" id="psw" placeholder="e.g. password123">
-                <button class="login" disabled>Login</button>
+                <button class="login" type="submit" disabled>Login</button>
             </div>
             <div class="user-sign-up">
                 <h3>Not got an account?</h3>
@@ -28,6 +28,6 @@
             </div>
         </form>
     </div>
-    <script src="login.js"></script>
+    <script src="../static/login.js"></script>
 </body>
 </html>
