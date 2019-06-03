@@ -95,9 +95,6 @@ form {
     border-radius: 3px;
     min-width: 70px;
     font-family: 'Heebo', sans-serif;
-    /*transition-property: background;
-    transition-duration: 300ms;
-    transition-timing-function: ease-in-out;*/
     transition: background 300ms linear;
     width: 60px;
     align-self: flex-end;
@@ -108,11 +105,14 @@ form {
 }
 
 .login-form button:disabled {
-    background: #344850;
+    position: relative;
+    background: gray;
+    cursor: inherit;
 }
 
 .user-sign-up h3 {
     margin-right: auto;
+    padding-right: 10px;
 }
 
 .user-sign-up button {
