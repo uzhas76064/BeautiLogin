@@ -1,0 +1,13 @@
+/*Fonts*/
+@font-face {
+    font-family: 'NoyhSlimR';
+    src: url('../fonts/NoyhSlimR.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/NoyhSlimR.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/NoyhSlimR.woff2') format('woff2'), /* Modern Browsers */
+        url('../fonts/NoyhSlimR.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/NoyhSlimR.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/NoyhSlimR.svg') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
