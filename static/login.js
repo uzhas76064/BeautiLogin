@@ -10,9 +10,7 @@ window.addEventListener('DOMContentLoaded', () => {
             else if (inputs[i] !== '') {
                 form.querySelector('button').disabled = false;
             }
-
-            localStorage.setItem('email', inputs[0].value);
-            localStorage.setItem('password', inputs[1].value);
+            localStorage.clear();
         });
     }
 });

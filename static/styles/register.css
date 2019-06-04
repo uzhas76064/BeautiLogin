@@ -1,0 +1,22 @@
+.container {
+    box-shadow:0px 0px 11px 0px rgba(50, 50, 50, 0.57);
+}
+
+.border {
+    border-radius: 10px;
+}
+
+.form-group:not(:last-child) {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group:last-child .form-control {
+    width: 20%;
+    display: inline-block;
+}
+
+.btn {
+    margin-bottom: 0.3125rem;
+    width: 64%;
+}
