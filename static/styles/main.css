@@ -1,4 +1,5 @@
-/*Global settings*/
+/* /*Global settings*/
+
 .user-sign-up, .user-action {
     display: flex;
     flex-wrap: wrap;
@@ -111,4 +112,16 @@ form {
     background-color: inherit;
     padding: 5px;
     align-self: auto;
+}
+
+@media screen and (max-width: 576px) {
+
+    .user-sign-up {
+        display: flex;
+        justify-content: center;
+    }
+
+    .user-sign-up h3 {
+        margin-right: unset;
+    }
 }
