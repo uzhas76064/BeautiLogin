@@ -5,7 +5,7 @@ Beautiful Login form with validation and server on Node.js
 1. **First you should download Node.js(latest version)**
    You can do it [here](https://nodejs.org/en/)
 2. Go to the directory with BeautiLogin by *Command line* or open your 
-   editor with terminal and go the nest step
+   editor with terminal and go the to next step
 3. **Write in your terminal(coomand line):**
    ```javascript
    npm install
