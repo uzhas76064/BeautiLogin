@@ -1,6 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
     let form = document.querySelector('form');
     let inputs = form.querySelectorAll('input');
+    let signUp = document.querySelector('button.sign-up');
 
     for(let i = 0; i < inputs.length; i++) {
         inputs[i].addEventListener('keyup', () => {
@@ -13,4 +14,9 @@ window.addEventListener('DOMContentLoaded', () => {
             localStorage.clear();
         });
     }
+
+    signUp.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.open('../static/register.html');
+    });
 });
